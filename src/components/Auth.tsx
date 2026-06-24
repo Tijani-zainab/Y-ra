@@ -23,6 +23,7 @@ export default function Auth() {
     } catch (err: any) {
       setError(err.message);
     }
+    
   };
 
   const handleSignOut = async () => {
